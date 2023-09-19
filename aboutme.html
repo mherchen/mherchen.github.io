@@ -4,27 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Michael</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <style>
+    Body {
+        background-image: url("CastleBackground.png");
+        background-color:  rgb(255, 213, 97);
+        #info {
+            text-shadow: 0 0 3px #0d0d0d, 0 0 5px #0e0e0f;
+            color: rgb(250, 247, 247);
+            font-size: larger
+            };
+        #paragraph1 {width:1024px}
+        #ClimbPic{ 
+            float: left;
+            margin-left: 6px;
+            margin-right: 6px}
+        #RockPic{
+           float: right;
+           margin-left: 6px;
+           margin-right: 6px;}
+        #FacePic{
+           float: left;
+           margin-left: 6px;
+           margin-right: 6px;}
+        #GamePic{
+           float: left;
+           margin-left: 6px;
+           margin-right: 6px;}
+        }
+        </style>
+
 </head>
 <body>
-    <img src="banner.jpg">
-    <table width="800px">
+    <img src="Michael_Banner.jpg">
+    <table id="nav-table">
         <tr>
             <td align="center">
-                <a href="index.html"> <img src="homebutton.png"></a>
+                <a href="index.html"> <img src="SwordHome.png" width="300"></a>
              </td>
             <td align="center">
-                <a href="javascripts.html"><img src="Javascriptsbutton.png"></a>
+                <a href="javascripts.html"><img src="CastleJava.png" width="180"></a>
             </td>
             <td align="center">
-               <a href="aboutme.html"> <img src="Aboutmebutton.png"></a>
+               <a href="aboutme.html"> <img src="SwordAbout.png" width="300"></a>
             </td>
         </tr>
     </table>
     <h1>About Me</h1>
-    
-    <p>Hello my name is Michael Herchen I am a senior at the University of Rhode Island. 
-    I am majoring in both Mechanica Engineering and Applied mathematics. I enjoy working out 
-    at the gym, playing basketball and volleyball, and going out for drinks with friends.</p>
-
+    <div id="paragraph1"> 
+        <p id="info" >Hello my name is Michael Herchen I am a senior at the University of Rhode Island. 
+        I am majoring in both Mechanica Engineering and Applied mathematics. I enjoy working out 
+        at the gym, playing basketball and volleyball,rockclimbing, reading, and going out for drinks with friends.</p>
+    </div>
+ <img id="ClimbPic" src="RedRising.JPG" width="250"> 
+ <img id="BookPic" src="RockClimb.JPG" width="250">
+ <img id="FacePic" src="Michaelface.jpg" width="250">
+ <img id="GamePic" src="Football.JPEG" width="250">
 </body>
 </html>
